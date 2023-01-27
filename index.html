@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js"></script>
 </head>
 <body class="h-screen font-mono">
 
@@ -17,22 +18,24 @@
 
         <p>Ou</p>
 
-        <a href="#" class="border-2 border-green-700">Créer une nouvelle partie</a>
+        <a href="#" class="border-2 border-green-700" id="feur-button">Quoi ?</a>
 
+    </div>
+
+    <div class="hidden fixed bottom-0 mb-4 mx-4 p-4 bg-green-500 text-white rounded-lg shadow" id="feur-notification">
+        <div class="flex">
+            <div class="mr-2">
+                <svg class="h-6 w-6 fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            </div>
+            <div>
+                <p class="text-xl">Notification</p>
+                <p class="text-sm">Feur</p>
+            </div>
+        </div>
     </div>
       
 </body>
 
-<script>
-
-    var audio = new Audio('meme.mp3');
-    var playButton = document.getElementById("play-button");
-
-    playButton.addEventListener("click", function(event) {
-        event.preventDefault();
-        audio.play();
-    });
-
-</script>
+<script src="main.js"></script>
 
 </html>
