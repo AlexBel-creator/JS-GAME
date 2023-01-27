@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen font-mono">
+
+    <div class="h-full gap-8 flex items-center justify-center">
+        
+        <form class="flex flex-col gap-2">
+            <label for="input-field">Identifiant</label>
+            <input type="text" id="input-field" name="input-field" class="border-2 border-green-700" placeholder="ton_id">
+            <button type="submit" id="play-button" class="border-2 border-green-700">Rejoindre ma partie</button>
+        </form>
+
+        <p>Ou</p>
+
+        <a href="#" class="border-2 border-green-700">Créer une nouvelle partie</a>
+
+    </div>
+      
+</body>
+
+<script>
+
+    var audio = new Audio('meme.mp3');
+    var playButton = document.getElementById("play-button");
+
+    playButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        audio.play();
+    });
+
+</script>
+
+</html>
