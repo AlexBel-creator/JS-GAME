@@ -4,5 +4,12 @@
     },
     "iq8tk6": {
         "cash": 7897.23
-    }
+    },
+
+    "treasury": 0,
+    "kindLoan": "",
+    "team": [],
+    "contractListing": [],
+    "headOffice": ""
 }
+

@@ -1,0 +1,75 @@
+{
+    "salary": 2000,
+    "termination_fee": 3000,
+    
+    "Job": {
+        "Développeurs": {
+            "Back": 0,
+            "Front": 0,
+            "DevOps": 0
+        },
+        "Designers": {
+            "UI": 0,
+            "UX": 0,
+            "Graphisme": 0
+        },
+        "Product Owner": {
+            "Chef de projet": 0,
+            "Communication": 0,
+            "Marketing": 0
+        }
+    },
+      
+    "contractgit":{
+        "amount": null,
+        "competency_req": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "delivery_time": null,
+        "penalty": null
+    }, 
+    
+    "offices": [
+        {
+            "name": "Garage",
+            "capacity": 1,
+            "propertyTax": 1000,
+            "buyingPrice": 30000
+        },
+        {
+            "name": "WeWorks",
+            "capacity": 6,
+            "propertyTax": 1000, 
+            "buyingPrice": 400000
+
+        },
+        {
+            "name": "Locaux New York",
+            "capacity": 18,
+            "propertyTax": 2000,
+            "buyingPrice": 800000
+        }
+    ],
+    
+    "loan": [       
+        {       
+            "feesPercentage": 1,        
+            "amount": 10000, 
+            "timeMonth": 5  
+        },
+        {       
+            "feesPercentage": 2,        
+            "amount": 20000, 
+            "timeMonth": 10  
+        }, 
+        {       
+            "feesPercentage": 3,        
+            "amount": 30000, 
+            "timeMonth": 15  
+        },
+        {       
+            "feesPercentage": 4,        
+            "amount": 40000, 
+            "timeMonth": 20  
+        }
+    ]
+
+}
