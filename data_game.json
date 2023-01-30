@@ -1,0 +1,21 @@
+{
+    "employee": 
+    {
+        "name": ,
+        "salary": 2000,
+        "termination_fee": ,
+        "speciality": 
+            {
+                "type":
+                    {
+                        "Developer":
+                            [
+                                {"subtype":
+                            }
+
+                            ]
+                    }
+        }
+
+    }
+}
