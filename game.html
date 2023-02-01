@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Jeu</title>
 </head>
-<body>
+<body class="h-screen font-mono m-5">
+
+    <div id="choice-modal" class="hidden border-2 border-green-700 p-5">
+        <div id="choice-title" class="text-xl mb-5"></div>
+        <div id="choice-text" class="text-sm mb-5"></div>
+        <div id="choice-buttons">
+            <button id="choice-1" class="border-2 border-green-700"></button>
+            <button id="choice-2" class="border-2 border-green-700"></button>
+            <button id="choice-3" class="border-2 border-green-700"></button>
+            <button id="choice-4" class="border-2 border-green-700"></button>
+        </div>
+    </div>
+
+    <div class="h-full gap-8 flex items-center justify-center">
+        <div>
+            <img src="assets/offices/garage.gif" class="w-full h-full object-fill">
+        </div>
+        <div>
+            <p>Trésorerie : <span class="text-green-700" id="cash"></span></p>
+            <p>Bureau : <span class="text-green-700" id="office"></span></p>
+            <p>Emprunt : <span class="text-green-700" id="loan"></span></p>
+            <p>Équipe : <span class="text-green-700" id="team"></span></p>
+            <p>Contrats : <span class="text-green-700" id="contracts"></span></p>
+        </div>
+    </div>
+
+    <div class="hidden fixed bottom-0 mb-4 mx-4 p-4 text-white rounded-lg shadow" id="notification-element">
+        <div class="flex">
+            <div class="mr-2">
+                <svg class="h-6 w-6 fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="notification-svg"></svg>
+            </div>
+            <div>
+                <p class="text-xl" id="notification-title"></p>
+                <p class="text-sm" id="notification-text"></p>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <script src="game.js"></script>

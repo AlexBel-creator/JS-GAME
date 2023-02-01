@@ -1,15 +1,9 @@
 {
     "2lr4u9": {
-        "cash": 1000000.5
-    },
-    "iq8tk6": {
-        "cash": 7897.23
-    },
-
-    "treasury": 0,
-    "kindLoan": "",
-    "team": [],
-    "contractListing": [],
-    "headOffice": ""
+        "treasury": 0,
+        "kindLoan": "",
+        "team": [],
+        "contractListing": [],
+        "headOffice": "Garage"
+    }
 }
-
