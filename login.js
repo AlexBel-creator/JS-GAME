@@ -67,7 +67,3 @@ join_button.addEventListener("click", function(event) {
         raise_notification("error")
     }
 });
-
-// Audio
-// audio = new Audio('assets/sounds/memes/ronflement.m4a');
-// audio.play()
