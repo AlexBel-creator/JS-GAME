@@ -20,7 +20,7 @@
         }
     },
       
-    "contractgit":{
+    "contract":{
         "amount": null,
         "competency_req": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         "delivery_time": null,
@@ -29,23 +29,29 @@
     
     "offices": [
         {
+            "id": "1",
             "name": "Garage",
             "capacity": 1,
             "propertyTax": 1000,
-            "buyingPrice": 30000
+            "buyingPrice": 30000,
+            "pathImages":"" 
         },
         {
+            "id": "2",
             "name": "WeWorks",
             "capacity": 6,
             "propertyTax": 1000, 
-            "buyingPrice": 400000
+            "buyingPrice": 400000,
+            "pathImages":"" 
 
         },
         {
+            "id": "3",
             "name": "Locaux New York",
             "capacity": 18,
             "propertyTax": 2000,
-            "buyingPrice": 800000
+            "buyingPrice": 800000, 
+            "pathImages":"" 
         }
     ],
     
